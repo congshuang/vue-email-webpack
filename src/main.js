@@ -53,5 +53,6 @@ require('./assets/css/base.css'); //全局引入
 new Vue({
   el: '#app',
     router,
+    store,
   render: h => h(App)
 })
